@@ -16,8 +16,13 @@
     <div id="app">
 
         <div class="container main-content">
+            <h1 class="title">{{ title }}</h1>
 
-            <h1 class="title">{{ message }}</h1>
+            <ul class="mail-list">
+                <li v-for="mail in eMails">
+                    <p>{{ mail }}</p>
+                </li>
+            </ul>
         </div>
 
 
