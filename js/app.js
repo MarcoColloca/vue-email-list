@@ -12,7 +12,7 @@ createApp({
 
 
     created(){
-        this.generateMail(10)
+        this.generateMail(30)
     },
 
 
