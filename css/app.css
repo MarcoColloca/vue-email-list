@@ -23,13 +23,26 @@ body{
 .main-content{
     text-align: center;
     margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{
-    font-size: 32px;
+    font-size: 42px;
+    color: wheat;
 }
 
 .mail-list{
     color: white;
     margin-top: 50px;
+    max-width: fit-content;
+    text-align: start;
+}
+
+.mail-list li{
+    margin: 13px 0;
+    border-bottom: 1px dotted;
+    list-style: decimal;
 }
