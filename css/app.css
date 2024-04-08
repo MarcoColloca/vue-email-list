@@ -9,3 +9,16 @@ body{
 }
 
 
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.main-content{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.title{
+    font-size: 32px;
+}
