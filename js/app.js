@@ -7,18 +7,19 @@ createApp({
         return {
             title: 'Email List:',
             eMails: [],
+            numberOfEMails: 10,
         }
     },
 
 
     created(){
-        this.generateMail(10)
+        this.generateMails(this.numberOfEMails)
     },
 
 
     methods: {
 
-        generateMail(n){
+        generateMails(n){
             // creazione di un array "temporaneo" in cui verrano salvate delle promesse
             const tempEmails = [];
 
