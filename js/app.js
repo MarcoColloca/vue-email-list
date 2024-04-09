@@ -35,7 +35,8 @@ createApp({
             // con il metodo promise all, possiamo ottenere un array che corrisponde ad una singola promessa, 
             // questo singolo Array ha come elementi che lo compongono le varie promesse a cui facciamo riferimento,
             // in questo caso le promesse che abbiamo salvato all'interno di tempEmails.
-            Promise.all(tempEmails).then(serverResponses => {                
+            Promise.all(tempEmails)
+            .then(serverResponses => {                
                 // questo codice qui viene quindi eseguito con tutti dati a nostra disposizione.
                 console.log(serverResponses);
 
